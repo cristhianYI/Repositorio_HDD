@@ -38,3 +38,6 @@ class Persona:
     # Modificacion Programador 1: valida si la persona es mayor de edad
     def es_mayor_de_edad(self):
         return self.__edad >= 18
+    # Modificacion Programador 3: mensaje de presentacion
+    def presentacion(self):
+        return f"Hola, mi nombre es {self.__nombre}"
