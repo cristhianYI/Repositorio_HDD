@@ -14,3 +14,7 @@ estudiante.edad = 25
 estudiante.curso = "SQL Server"
 estudiante.universidad = "UNMSM"
 print(estudiante)
+
+# Modificacion Programador 3: nueva instancia de prueba
+estudiante2 = Estudiante("Noemi Hidalgo", 20, "Python", "UTP")
+print(estudiante2)

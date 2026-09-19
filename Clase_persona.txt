@@ -34,3 +34,7 @@ class Persona:
 
     def __str__(self):
         return f"{self.__nombre} ({self.__edad})"
+
+    # Modificacion Programador 3: mensaje de presentacion
+    def presentacion(self):
+        return f"Hola, mi nombre es {self.__nombre}"
