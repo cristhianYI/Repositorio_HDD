@@ -13,3 +13,7 @@ class Estudiante(Persona):
 
 # estudiante1 = Estudiante("Sandra Villar", 22, "Python")
 # print(estudiante1)
+
+    # Modificacion Programador 2: devuelve los datos academicos del estudiante
+    def datos_academicos(self):
+        return f"Curso: {self.curso} | Universidad: {self.universidad}"
